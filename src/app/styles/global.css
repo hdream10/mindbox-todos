@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+}
+
 html {
   font-size: 16px;
 }
@@ -15,4 +24,21 @@ body {
   min-height: 100vh;
   font-size: 16px;
   line-height: 120%;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 64px;
+}
+
+.app-title {
+  width: fit-content;
+  margin: 0 auto;
+  font-weight: 100;
+  font-size: 96px;
+  color: #e8dbda;
+  margin-bottom: 24px;
+  line-height: 100%;
 }
